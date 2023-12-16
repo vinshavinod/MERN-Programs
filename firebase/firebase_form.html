@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <title>Document</title>
+<style>
+    .InputBox{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  box-sizing: border-box;
+  size: 30%;
+    }
+
+    button{
+        background-color: blue;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Contact Form</h1>
+        <form action="" id="contactForm">
+            
+            <div class="InputBox">
+                <input type="text" id="name" placeholder="Your name">
+            </div>
+
+            <div class="InputBox">
+                <input type="email" id="emailid" placeholder="Your email">
+            </div>
+
+            <div class="InputBox">
+                <input type="text" id="msgContent" cols="20" rows="8" placeholder="Mobile">
+            </div>
+
+            <div class="InputBox">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+</center>
+    <script src="./firebase.js"></script>
+</body>
+</html>

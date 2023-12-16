@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script href="bootstrap-5.3.2-dist/js/bootstrap.min.css"></script>
+</head>
+<body>
+    <h3><%= title %></h3>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Class</th>
+            <th scope="col">Stream</th>
+            <th scope="col">Mark</th>
+            <th scope="col">Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+            <% for (student in student_data){ %>
+                <tr>
+                    <th scope="row"><%= parseInt(student)+1 %></th>
+                    <td><%= student_data[student].name %></td>
+                    <td><%= student_data[student].class %></td>
+                    <td><%= student_data[student].stream %></td>
+                    <td><%= student_data[student].mark %></td>
+                    <td><%= student_data[student].grade %></td>
+                    
+                  </tr>
+            <% } %>
+          
+          
+        </tbody>
+      </table>
+</body>
+</html>

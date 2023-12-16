@@ -1,0 +1,70 @@
+{
+    name: 'Arun',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 90,
+    grade: 'A plus';
+}
+{
+    name: 'Ajay',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 80,
+    grade: 'A';
+}
+{
+    name: 'Anjali',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 80,
+    grade: 'A';
+}
+{
+    name: 'Nandhana',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 70,
+    grade: 'B plus';
+}
+{
+    name: 'Nayana',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 75,
+    grade: 'B plus';
+}
+{
+    name: 'Namith',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 60,
+    grade: 'B';
+}
+{
+    name: 'Nikhil',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 65,
+    grade: 'B';
+}
+{
+    name: 'Malu',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 90,
+    grade: 'A plus';
+}
+{
+    name: 'Nivin',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 70,
+    grade: 'B plus';
+}
+{
+    name: 'Fidha',
+    class: 'Plus one',
+    stream: 'Science',
+    mark: 75,
+    grade: 'B plus';
+}
